@@ -20,8 +20,11 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
         builder.HasIndex(x => x.Sku)
             .IsUnique();
 
+        builder.HasIndex(x => x.Name).IsUnique();
+        
         builder.Property(x => x.Name)
             .HasColumnName("name")
+            .HasColumnType("citext")
             .HasMaxLength(160)
             .IsRequired();
 

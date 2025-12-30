@@ -2639,11 +2639,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Api/SimplePOS.Api.csproj",
+      "projectUniqueName": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Api/SimplePOS.Api.csproj",
       "projectName": "SimplePOS.Api",
-      "projectPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Api/SimplePOS.Api.csproj",
+      "projectPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Api/SimplePOS.Api.csproj",
       "packagesPath": "/Users/mm/.nuget/packages/",
-      "outputPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Api/obj/",
+      "outputPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mm/.nuget/NuGet/NuGet.Config"
@@ -2658,11 +2658,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj": {
-              "projectPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj"
+            "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj": {
+              "projectPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj"
             },
-            "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Infrastructure/SimplePOS.Infrastructure.csproj": {
-              "projectPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Infrastructure/SimplePOS.Infrastructure.csproj"
+            "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Infrastructure/SimplePOS.Infrastructure.csproj": {
+              "projectPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Infrastructure/SimplePOS.Infrastructure.csproj"
             }
           }
         }

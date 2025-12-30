@@ -14,6 +14,7 @@ public class ProductGroupConfiguration : IEntityTypeConfiguration<ProductGroup>
 
         builder.Property(x => x.Name)
             .HasColumnName("name")
+            .HasColumnType("citext")
             .HasMaxLength(120)
             .IsRequired();
 

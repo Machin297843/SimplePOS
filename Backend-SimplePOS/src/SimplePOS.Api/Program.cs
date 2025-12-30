@@ -1,6 +1,7 @@
 using SimplePOS.Application.Products;
 using SimplePOS.Application.ProductGroups;
 using SimplePOS.Infrastructure;
+using SimplePOS.Api.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +18,7 @@ var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
-
+app.UseMiddleware<ExceptionMiddleware>();
 app.MapControllers();
 
 app.Run();

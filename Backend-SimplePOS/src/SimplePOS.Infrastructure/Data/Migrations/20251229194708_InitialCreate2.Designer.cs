@@ -8,11 +8,11 @@ using SimplePOS.Infrastructure.Data;
 
 #nullable disable
 
-namespace SimplePOS.Infrastructure.Migrations
+namespace SimplePOS.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20251229045436_AddProductsAndGroups")]
-    partial class AddProductsAndGroups
+    [Migration("20251229194708_InitialCreate2")]
+    partial class InitialCreate2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -22,6 +22,7 @@ namespace SimplePOS.Infrastructure.Migrations
                 .HasAnnotation("ProductVersion", "8.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
+            NpgsqlModelBuilderExtensions.HasPostgresExtension(modelBuilder, "citext");
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
             modelBuilder.Entity("SimplePOS.Domain.Entities.Product", b =>
@@ -35,7 +36,7 @@ namespace SimplePOS.Infrastructure.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(160)
-                        .HasColumnType("character varying(160)")
+                        .HasColumnType("citext")
                         .HasColumnName("name");
 
                     b.Property<decimal>("Price")
@@ -54,6 +55,9 @@ namespace SimplePOS.Infrastructure.Migrations
                         .HasColumnName("sku");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
 
                     b.HasIndex("ProductGroupId");
 
@@ -74,7 +78,7 @@ namespace SimplePOS.Infrastructure.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(120)
-                        .HasColumnType("character varying(120)")
+                        .HasColumnType("citext")
                         .HasColumnName("name");
 
                     b.HasKey("Id");

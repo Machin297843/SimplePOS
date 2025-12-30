@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj",
+      "projectUniqueName": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj",
       "projectName": "SimplePOS.Domain",
-      "projectPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj",
+      "projectPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj",
       "packagesPath": "/Users/mm/.nuget/packages/",
-      "outputPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Domain/obj/",
+      "outputPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mm/.nuget/NuGet/NuGet.Config"

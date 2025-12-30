@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UlQZOM9bhIw=",
+  "dgSpecHash": "s+Qj+7MYj2s=",
   "success": true,
-  "projectFilePath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj",
+  "projectFilePath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

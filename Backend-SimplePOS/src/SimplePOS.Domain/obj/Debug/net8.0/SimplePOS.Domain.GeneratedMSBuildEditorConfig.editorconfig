@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SimplePOS.Domain
-build_property.ProjectDir = /Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Domain/
+build_property.ProjectDir = /Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Domain/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

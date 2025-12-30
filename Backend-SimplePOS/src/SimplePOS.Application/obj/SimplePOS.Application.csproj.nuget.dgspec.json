@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj": {}
+    "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj": {}
   },
   "projects": {
-    "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj": {
+    "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj",
+        "projectUniqueName": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj",
         "projectName": "SimplePOS.Application",
-        "projectPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj",
+        "projectPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj",
         "packagesPath": "/Users/mm/.nuget/packages/",
-        "outputPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Application/obj/",
+        "outputPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mm/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj": {
-                "projectPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj"
+              "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj": {
+                "projectPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj": {
+    "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj",
+        "projectUniqueName": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj",
         "projectName": "SimplePOS.Domain",
-        "projectPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj",
+        "projectPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj",
         "packagesPath": "/Users/mm/.nuget/packages/",
-        "outputPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Domain/obj/",
+        "outputPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mm/.nuget/NuGet/NuGet.Config"

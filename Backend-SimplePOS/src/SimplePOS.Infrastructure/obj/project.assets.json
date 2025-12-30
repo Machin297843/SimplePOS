@@ -2149,11 +2149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Infrastructure/SimplePOS.Infrastructure.csproj",
+      "projectUniqueName": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Infrastructure/SimplePOS.Infrastructure.csproj",
       "projectName": "SimplePOS.Infrastructure",
-      "projectPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Infrastructure/SimplePOS.Infrastructure.csproj",
+      "projectPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Infrastructure/SimplePOS.Infrastructure.csproj",
       "packagesPath": "/Users/mm/.nuget/packages/",
-      "outputPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Infrastructure/obj/",
+      "outputPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mm/.nuget/NuGet/NuGet.Config"
@@ -2168,11 +2168,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj": {
-              "projectPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj"
+            "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj": {
+              "projectPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj"
             },
-            "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj": {
-              "projectPath": "/Users/mm/Desktop/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj"
+            "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj": {
+              "projectPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj"
             }
           }
         }
