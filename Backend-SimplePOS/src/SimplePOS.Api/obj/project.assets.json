@@ -2610,18 +2610,18 @@
     },
     "SimplePOS.Application/1.0.0": {
       "type": "project",
-      "path": "../SimplePOS.Application/SimplePOS.Application.csproj",
-      "msbuildProject": "../SimplePOS.Application/SimplePOS.Application.csproj"
+      "path": "../../../Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj",
+      "msbuildProject": "../../../Backend-SimplePOS/src/SimplePOS.Application/SimplePOS.Application.csproj"
     },
     "SimplePOS.Domain/1.0.0": {
       "type": "project",
-      "path": "../SimplePOS.Domain/SimplePOS.Domain.csproj",
-      "msbuildProject": "../SimplePOS.Domain/SimplePOS.Domain.csproj"
+      "path": "../../../Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj",
+      "msbuildProject": "../../../Backend-SimplePOS/src/SimplePOS.Domain/SimplePOS.Domain.csproj"
     },
     "SimplePOS.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../SimplePOS.Infrastructure/SimplePOS.Infrastructure.csproj",
-      "msbuildProject": "../SimplePOS.Infrastructure/SimplePOS.Infrastructure.csproj"
+      "path": "../../../Backend-SimplePOS/src/SimplePOS.Infrastructure/SimplePOS.Infrastructure.csproj",
+      "msbuildProject": "../../../Backend-SimplePOS/src/SimplePOS.Infrastructure/SimplePOS.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2639,11 +2639,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Api/SimplePOS.Api.csproj",
+      "projectUniqueName": "/Users/mm/Desktop/SimplePOS/Backend-simplePOS/src/SimplePOS.Api/SimplePOS.Api.csproj",
       "projectName": "SimplePOS.Api",
-      "projectPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Api/SimplePOS.Api.csproj",
+      "projectPath": "/Users/mm/Desktop/SimplePOS/Backend-simplePOS/src/SimplePOS.Api/SimplePOS.Api.csproj",
       "packagesPath": "/Users/mm/.nuget/packages/",
-      "outputPath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Api/obj/",
+      "outputPath": "/Users/mm/Desktop/SimplePOS/Backend-simplePOS/src/SimplePOS.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mm/.nuget/NuGet/NuGet.Config"
@@ -2676,7 +2676,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -2716,7 +2717,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

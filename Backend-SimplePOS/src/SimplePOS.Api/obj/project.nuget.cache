@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iVt+sP6/8Yk=",
+  "dgSpecHash": "q4ox9uA5hvU=",
   "success": true,
-  "projectFilePath": "/Users/mm/Desktop/SimplePOS/Backend-SimplePOS/src/SimplePOS.Api/SimplePOS.Api.csproj",
+  "projectFilePath": "/Users/mm/Desktop/SimplePOS/Backend-simplePOS/src/SimplePOS.Api/SimplePOS.Api.csproj",
   "expectedPackageFiles": [
     "/Users/mm/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/mm/.nuget/packages/microsoft.aspnetcore.openapi/8.0.11/microsoft.aspnetcore.openapi.8.0.11.nupkg.sha512",

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimplePOS.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8de4320bd4b2be0ec0402e10e87d822f00ff100")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65769456cf32135e074fa1a352a2b20810b910ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimplePOS.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimplePOS.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
