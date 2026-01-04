@@ -1,0 +1,67 @@
+SimplePOS 🧾
+
+MVP de sistema POS / Backoffice con arquitectura API-first.
+La API centraliza toda la lógica de negocio y puede ser consumida por distintos clientes.
+
+🧱 Stack tecnológico
+
+- ASP.NET Core Web API (.NET 8 LTS)
+- Entity Framework Core 8
+- PostgreSQL
+- Swagger
+- Docker
+
+📦 Requisitos
+
+Docker
+Docker Compose
+
+🚀 Levantar el proyecto con Docker
+
+1️⃣ Clonar el repositorio
+git clone https://github.com/tu-usuario/simplepos.git
+cd simplepos
+
+2️⃣ Levantar servicios
+docker compose up --build
+
+Este comando:
+
+- Levanta PostgreSQL
+- Espera a que la base esté lista
+- Inicia la API en .NET 8
+
+4️⃣ URLs
+
+Aplicación (Frontend)
+http://localhost:5173/
+
+Swagger (API)
+http://localhost:8080/swagger
+
+🧪 ¿Cómo probrar la aplicación?
+
+Antes de poder crear productos, es necesario crear al menos un grupo de productos.
+
+1️⃣ Crear un grupo de productos (Swagger)
+
+Abrir Swagger:
+http://localhost:8080/swagger
+
+Ejecutar el POST para crear un grupo de productos
+(ejemplo: Bebidas, Snacks, etc.)
+
+2️⃣ Crear un producto
+
+Usar el endpoint POST /products
+
+Asignar el productGroupId correspondiente
+
+3️⃣ Ver los productos en la aplicación
+
+Abrir la aplicación:
+http://localhost:5173/
+
+Presionar F5 para refrescar la vista
+
+Los productos creados vía API se mostrarán listados en la aplicación
